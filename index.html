@@ -1,14 +1,127 @@
+<!--
+  NOTE: &oacute; is the HTML entity for 'ó' in 'Kenó'
+  For the sake of consistency, please use it whenver possible.
+-->
+
 <html>
   <head>
-    <title>Kenó Antigen</title>
-    
+    <title>Coming Soon</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+        background-color: #161515;
+        color: white;
+      }
+
+      #container {
+        width: 600px;
+
+        text-align: center;
+        margin: 0 auto;
+
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .emphasis {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      #mce-EMAIL {
+        background-color: #161515;
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid white;
+      }
+
+      #mc-embedded-subscribe {
+        color: white;
+        background-color: #161515;
+        border: 2px solid white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+        cursor: pointer;
+      }
+
+      #mc-embedded-subscribe:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
-  
+
   <body>
-    <h1>Hello, World!</h1>
-    
-    <p>
-      Kenó Antigen, coming soon...
-    </p>
+    <div id="container">
+      <h1>Ken&oacute; Antigen</h1>
+
+      <p class="emphasis">
+        Coming Soon
+      </p>
+
+      <p>
+        A community funded and developed version of the game The Lacuna Expanse.
+      </p>
+
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form
+          action="//kenoantigen.us13.list-manage.com/subscribe/post?u=50dbd71d24b9583df7701482a&amp;id=7596dea4a0"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+            <div id="mc_embed_signup_scroll">
+              <p class="emphasis">
+                Keep up with the latest developments
+              </p>
+
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Email: </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <input
+                  type="submit"
+                  value="Subscribe"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  class="button"
+                >
+              </div>
+
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+
+              <!--
+                real people should not fill this in and expect good things - do not remove
+                this or risk form bot signups
+              -->
+              <div
+                style="position: absolute; left: -5000px;"
+                aria-hidden="true"
+              >
+                <input
+                  type="text"
+                  name="b_50dbd71d24b9583df7701482a_7596dea4a0"
+                  tabindex="-1"
+                  value=""
+                >
+              </div>
+            </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </div>
   </body>
 </html>
