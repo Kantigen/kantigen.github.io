@@ -96,3 +96,10 @@ body {
    color: #ffffff;
    opacity: 0.9;
 }
+
+/* Shitty iOS button styling fix */
+button, input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
