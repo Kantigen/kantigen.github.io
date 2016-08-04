@@ -25,6 +25,11 @@ body {
   text-decoration: underline;
 }
 
+.extra-padded-paragraph {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 #mce-EMAIL {
   background-color: #161515;
   color: #ffffff;
