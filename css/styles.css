@@ -1,0 +1,98 @@
+
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  background-color: #161515;
+  color: #ffffff;
+
+  /* Minor aesthetic details */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.emphasis {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#mce-EMAIL {
+  background-color: #161515;
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  border: 2px solid #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#mc-embedded-subscribe {
+  color: #ffffff;
+  background-color: #161515;
+  border: 2px solid #ffffff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#mc-embedded-subscribe:hover {
+  text-decoration: underline;
+}
+
+
+/* Dektop computers and whatver */
+@media (min-width: 600px) {
+  #container {
+    max-width: 600px;
+
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 600px) and (min-height: 500px) {
+  #container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* Mobile and some tablets */
+@media (max-width: 599px) {
+  #container {
+    width: 100%;
+    text-align: center;
+  }
+
+  #mce-EMAIL {
+    width: 100%;
+  }
+
+  #mc-embedded-subscribe {
+    margin-top: 10px;
+  }
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #ffffff;
+    opacity: 0.9;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #ffffff;
+   opacity: 0.9;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #ffffff;
+   opacity: 0.9;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #ffffff;
+   opacity: 0.9;
+}

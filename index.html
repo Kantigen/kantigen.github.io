@@ -8,54 +8,10 @@
     <title>Coming Soon</title>
 
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
 
-    <style type="text/css">
-      body {
-        font-family: 'Indie Flower', cursive;
-        font-size: 30px;
-        background-color: #161515;
-        color: white;
-      }
-
-      #container {
-        width: 600px;
-
-        text-align: center;
-        margin: 0 auto;
-
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-
-      .emphasis {
-        font-weight: bold;
-        text-decoration: underline;
-      }
-
-      #mce-EMAIL {
-        background-color: #161515;
-        color: white;
-        font-family: 'Indie Flower', cursive;
-        font-size: 30px;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid white;
-      }
-
-      #mc-embedded-subscribe {
-        color: white;
-        background-color: #161515;
-        border: 2px solid white;
-        font-family: 'Indie Flower', cursive;
-        font-size: 30px;
-        cursor: pointer;
-      }
-
-      #mc-embedded-subscribe:hover {
-        text-decoration: underline;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- TODO: metadata for SEO -->
   </head>
 
   <body>
@@ -87,35 +43,20 @@
               </p>
 
               <div class="mc-field-group">
-                <label for="mce-EMAIL">Email: </label>
-                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="required email"
+                  id="mce-EMAIL"
+                  placeholder="Enter email"
+                >
                 <input
                   type="submit"
                   value="Subscribe"
                   name="subscribe"
                   id="mc-embedded-subscribe"
                   class="button"
-                >
-              </div>
-
-              <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-              </div>
-
-              <!--
-                real people should not fill this in and expect good things - do not remove
-                this or risk form bot signups
-              -->
-              <div
-                style="position: absolute; left: -5000px;"
-                aria-hidden="true"
-              >
-                <input
-                  type="text"
-                  name="b_50dbd71d24b9583df7701482a_7596dea4a0"
-                  tabindex="-1"
-                  value=""
                 >
               </div>
             </div>
