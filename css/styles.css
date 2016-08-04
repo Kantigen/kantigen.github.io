@@ -1,7 +1,12 @@
 
+@font-face {
+  font-family: 'Nasalization';
+  src: url('fonts/nasalization.ttf');
+}
+
 body {
-  font-family: 'Indie Flower', cursive;
-  font-size: 30px;
+  font-family: 'Nasalization', 'sans serif';
+  font-size: 26px;
   background-color: #161515;
   color: #ffffff;
 
@@ -23,22 +28,24 @@ body {
 #mce-EMAIL {
   background-color: #161515;
   color: #ffffff;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Nasalization', 'sans serif';
   font-size: 30px;
   outline: none;
   border: none;
   border: 2px solid #ffffff;
   padding-left: 10px;
   padding-right: 10px;
+  width: 100%;
 }
 
 #mc-embedded-subscribe {
   color: #ffffff;
   background-color: #161515;
   border: 2px solid #ffffff;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Nasalization', 'sans serif';
   font-size: 30px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 #mc-embedded-subscribe:hover {
@@ -69,14 +76,6 @@ body {
   #container {
     width: 100%;
     text-align: center;
-  }
-
-  #mce-EMAIL {
-    width: 100%;
-  }
-
-  #mc-embedded-subscribe {
-    margin-top: 10px;
   }
 }
 
