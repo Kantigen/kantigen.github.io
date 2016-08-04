@@ -20,35 +20,58 @@ body {
   cursor: default;
 }
 
-.emphasis {
-  font-weight: bold;
-  text-decoration: underline;
+#background-container {
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
-.extra-padded-paragraph {
-  margin-top: 2em;
-  margin-bottom: 2em;
+#container {
+  position: absolute;;
+  z-index: 2;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/* Desktop */
+@media (min-width: 600px) and (min-height: 500px) {
+  #container {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 600px;
+    height: 500px;
+  }
 }
 
 #mce-EMAIL {
-  background-color: #161515;
+  background-color: transparent;
   color: #ffffff;
   font-family: 'Nasalization', 'sans serif';
-  font-size: 30px;
+  font-size: 26px;
   outline: none;
   border: none;
   border: 2px solid #ffffff;
+  border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 100%;
+  width: 70%;
+  box-sizing: border-box;
 }
 
 #mc-embedded-subscribe {
   color: #ffffff;
-  background-color: #161515;
+  background-color: transparent;
   border: 2px solid #ffffff;
+  border-radius: 10px;
   font-family: 'Nasalization', 'sans serif';
-  font-size: 30px;
+  font-size: 26px;
   cursor: pointer;
   margin-top: 10px;
 }
@@ -57,31 +80,14 @@ body {
   text-decoration: underline;
 }
 
-
-/* Dektop computers and whatver */
-@media (min-width: 600px) {
-  #container {
-    max-width: 600px;
-
-    text-align: center;
-    margin: 0 auto;
-  }
+.emphasis {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-@media (min-width: 600px) and (min-height: 500px) {
-  #container {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
-
-/* Mobile and some tablets */
-@media (max-width: 599px) {
-  #container {
-    width: 100%;
-    text-align: center;
-  }
+.extra-padded-paragraph {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
