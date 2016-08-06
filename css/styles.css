@@ -31,7 +31,7 @@ body {
 }
 
 #container {
-  position: absolute;;
+  position: absolute;
   z-index: 2;
   text-align: center;
   word-wrap: break-word;
