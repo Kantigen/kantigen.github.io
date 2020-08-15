@@ -1,6 +1,6 @@
 # kantigen.github.io
 
-Keno Antigen website
+Kenó Antigen website
 
 # License
 
