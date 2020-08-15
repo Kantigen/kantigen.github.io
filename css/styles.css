@@ -36,6 +36,8 @@ body {
   text-align: center;
   word-wrap: break-word;
   background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
 }
 
 /* Desktop */
@@ -59,7 +61,6 @@ body {
   outline: none;
   border: none;
   border: 2px solid #ffffff;
-  border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
   width: 70%;
@@ -70,7 +71,6 @@ body {
   color: #ffffff;
   background-color: transparent;
   border: 2px solid #ffffff;
-  border-radius: 10px;
   font-family: 'Nasalization', 'sans serif';
   font-size: 26px;
   cursor: pointer;
@@ -78,7 +78,8 @@ body {
 }
 
 #mc-embedded-subscribe:hover {
-  text-decoration: underline;
+  background-color: white;
+  color: black;
 }
 
 .emphasis {
